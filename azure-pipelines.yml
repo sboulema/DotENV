@@ -38,7 +38,7 @@ steps:
 - task: VsixToolsUpdateVersion@1
   displayName: 'Update Vsix Version'
   inputs:
-    FileName: $(Build.SourcesDirectory)\$(system.teamProject)\source.extension.vsixmanifest
+    FileName: $(Build.SourcesDirectory)\src\source.extension.vsixmanifest
     VersionNumber: '$(Build.BuildNumber)'
 
 - task: VSBuild@1
