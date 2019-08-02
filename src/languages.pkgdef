@@ -1,0 +1,8 @@
+﻿; Registers the language grammar files with Visual Studio
+[$RootKey$\TextMate\Repositories]
+"DotENV"="$PackageFolder$\Grammars"
+
+; Associate icons with file extensions in Solution Explorer
+; Find more icons at http://glyphlist.azurewebsites.net/knownmonikers/
+[$RootKey$\ShellFileAssociations\.env]
+"DefaultIconMoniker"="KnownMonikers.Environment"
