@@ -2,7 +2,11 @@
 
 A port of [DotENV](https://github.com/zaynali53/DotENV) for Visual Studio.
 
-![Example](images/screenshot.png)
+[![Build Status](https://dev.azure.com/sboulema/DotENV/_apis/build/status/sboulema.DotENV?branchName=master)](https://dev.azure.com/sboulema/DotENV/_build/latest?definitionId=20&branchName=master)
+[![Beerpay](https://img.shields.io/beerpay/sboulema/DotENV.svg?style=flat)](https://beerpay.io/sboulema/DotENV)
+[![Donate](https://img.shields.io/badge/%F0%9F%92%B0-Donate-green.svg?style=flat)](https://beerpay.io/sboulema/DotENV)
+
+![Example](https://i.imgur.com/EGlPWZA.png)
 
 ### Acknowledgements
 

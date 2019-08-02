@@ -4,13 +4,18 @@
         <Identity Id="01e49a68-16fa-4117-93da-ab2c38191fd2" Version="1.0" Language="en-US" Publisher="Samir L. Boulema" />
         <DisplayName>DotENV</DisplayName>
         <Description xml:space="preserve">Provide syntax highlighting for .env files</Description>
+        <MoreInfo>https://github.com/sboulema/DotENV</MoreInfo>
         <License>Resources\LICENSE</License>
+        <GettingStartedGuide>https://github.com/sboulema/DotENV/blob/master/README.md</GettingStartedGuide>
+        <ReleaseNotes>https://github.com/sboulema/DotENV/releases</ReleaseNotes>
         <Icon>Resources\Icon.png</Icon>
-        <PreviewImage>Resources\Icon.png</PreviewImage>
+        <PreviewImage>Resources\Screenshot-light.png</PreviewImage>
         <Tags>textmate, bundle, dotenv</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,17.0)" />
+        <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
@@ -19,6 +24,6 @@
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="languages.pkgdef" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[14.0,)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>
