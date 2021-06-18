@@ -17,6 +17,9 @@ variables:
 name: 2.0.$(patch)
 
 steps:
+- task: NuGetCommand@2
+  displayName: 'NuGet restore'
+
 - task: bleddynrichards.Assembly-Info-Task.Assembly-Info-Task.Assembly-Info-NetFramework@2
   displayName: 'Update Assembly Version'
   inputs:
