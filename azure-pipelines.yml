@@ -1,10 +1,5 @@
-# .NET Desktop
-# Build and run tests for .NET Desktop or Windows classic desktop solutions.
-# Add steps that publish symbols, save build artifacts, and more:
-# https://docs.microsoft.com/vsts/pipelines/apps/windows/dot-net
-
 pool:
-  vmImage: 'VS2017-Win2016'
+  vmImage: 'windows-latest'
 
 trigger:
   branches:
@@ -19,16 +14,10 @@ variables:
   buildConfiguration: 'Release'
   group: VsixSign
 
-name: 1.0.$(patch)
+name: 2.0.$(patch)
 
 steps:
-- task: NuGetToolInstaller@0
-
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
-
-- task: bleddynrichards.Assembly-Info-Task.Assembly-Info-Task.Assembly-Info-Task@1
+- task: bleddynrichards.Assembly-Info-Task.Assembly-Info-Task.Assembly-Info-NetFramework@2
   displayName: 'Update Assembly Version'
   inputs:
     VersionNumber: '$(Build.BuildNumber)'
@@ -68,5 +57,5 @@ steps:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
     artifactName: '$(system.teamProject)'
 
-- task: VsixToolsUploadVsix@1
+- task: VsixToolsUploadVsix@2
   displayName: 'Upload Vsix to Open Gallery'
