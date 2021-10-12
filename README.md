@@ -2,10 +2,12 @@
 
 A port of [DotENV](https://github.com/zaynali53/DotENV) for Visual Studio.
 
-[![CodeNav](https://github.com/sboulema/DotENV/actions/workflows/workflow.yml/badge.svg)](https://github.com/sboulema/DotENV/actions/workflows/workflow.yml)
+[![DotENV](https://github.com/sboulema/DotENV/actions/workflows/workflow.yml/badge.svg)](https://github.com/sboulema/DotENV/actions/workflows/workflow.yml)
 [![Sponsor](https://img.shields.io/badge/-Sponsor-fafbfc?logo=GitHub%20Sponsors)](https://github.com/sponsors/sboulema)
 
-![Example](https://i.imgur.com/EGlPWZA.png)
+![Light](https://i.imgur.com/EGlPWZA.png)
+
+![Dark](https://i.imgur.com/AHgQzAp.png)
 
 ### Acknowledgements
 
