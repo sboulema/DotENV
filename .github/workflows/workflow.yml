@@ -1,4 +1,4 @@
-name: CodeNav
+name: DotENV
 
 on:
   push:
@@ -33,17 +33,17 @@ jobs:
         uses: microsoft/setup-msbuild@v1.0.2
 
       - name: NuGet restore
-        run: nuget restore CodeNav.sln -ConfigFile nuget.config
+        run: nuget restore src\DotENV.sln
 
       - name: Build VSIX
-        run: msbuild CodeNav.sln /t:Rebuild /p:Configuration=Release
+        run: msbuild src\DotENV.sln /t:Rebuild /p:Configuration=Release
         env: 
           DeployExtension: False
 
       - name: Publish Build Artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: CodeNav
+          name: DotENV
           path: |
             **\*.vsix
             publish-manifest.*.json

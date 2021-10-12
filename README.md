@@ -2,7 +2,7 @@
 
 A port of [DotENV](https://github.com/zaynali53/DotENV) for Visual Studio.
 
-[![Build Status](https://dev.azure.com/sboulema/DotENV/_apis/build/status/sboulema.DotENV?branchName=master)](https://dev.azure.com/sboulema/DotENV/_build/latest?definitionId=20&branchName=master)
+[![CodeNav](https://github.com/sboulema/DotENV/actions/workflows/workflow.yml/badge.svg)](https://github.com/sboulema/DotENV/actions/workflows/workflow.yml)
 [![Sponsor](https://img.shields.io/badge/-Sponsor-fafbfc?logo=GitHub%20Sponsors)](https://github.com/sponsors/sboulema)
 
 ![Example](https://i.imgur.com/EGlPWZA.png)
