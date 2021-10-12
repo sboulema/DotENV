@@ -33,10 +33,10 @@ jobs:
         uses: microsoft/setup-msbuild@v1.0.2
 
       - name: NuGet restore
-        run: nuget restore src\DotENV.sln
+        run: nuget restore DotENV.sln
 
       - name: Build VSIX
-        run: msbuild src\DotENV.sln /t:Rebuild /p:Configuration=Release
+        run: msbuild DotENV.sln /t:Rebuild /p:Configuration=Release
         env: 
           DeployExtension: False
 
