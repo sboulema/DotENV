@@ -77,7 +77,7 @@ jobs:
         uses: cezarypiatek/VsixPublisherAction@0.1
         with:
           extension-file: DotENV/src/bin/release/DotENV.vsix
-          publish-manifest-file: publish-manifest.json
+          publish-manifest-file: DotENV/publish-manifest.json
           personal-access-code: ${{ secrets.VS_PUBLISHER_ACCESS_TOKEN }}
 
       - name: Publish to Open VSIX Gallery
