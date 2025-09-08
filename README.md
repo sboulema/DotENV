@@ -16,7 +16,7 @@ A port of [DotENV](https://github.com/zaynali53/DotENV) for Visual Studio 2022.
 
 [GitHub Releases](https://github.com/sboulema/dotenv/releases)
 
-Open VSIX Gallery
+[Open VSIX Gallery](https://www.vsixgallery.com/extension/01e49a68-16fa-4117-93da-ab2c38191fd2)
 
 # 📄 Supported files
 Highlighting support is determined by file extension.
