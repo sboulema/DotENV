@@ -26,6 +26,7 @@ internal class ExtensionEntrypoint : Extension
             //License = "Resources/License.txt",
             Icon = "Resources/icon.png",
             PreviewImage = "Resources/Screenshot-light.png",
+            InstallationTargetVersion = "[17.14,19.0)",
         },
     };
 
