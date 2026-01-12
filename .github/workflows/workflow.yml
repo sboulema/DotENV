@@ -1,4 +1,4 @@
-﻿name: DotENV
+name: DotENV
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
         run: dotnet publish -p:Version=${{ env.version }}
 
       - name: Publish Build Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: DotENV
           path: |
