@@ -1,4 +1,4 @@
-﻿name: DotENV
+name: DotENV
 
 on:
   push:
@@ -46,7 +46,7 @@ jobs:
     environment: Release
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v7
         with:
           merge-multiple: true
 
