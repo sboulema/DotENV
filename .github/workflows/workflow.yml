@@ -77,7 +77,7 @@ jobs:
         with:
           extension-file: ${{ env.vsixPath }}
           publish-manifest-file: publish-manifest.json
-          oidc: true
+          personal-access-code: ${{ secrets.VS_PUBLISHER_ACCESS_TOKEN }} # Trusted publishing blocked on https://github.com/microsoft/vsmarketplace/issues/2310
 
       - name: Publish to Open VSIX Gallery
         uses: madskristensen/publish-vsixgallery@v1
