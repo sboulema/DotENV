@@ -27,6 +27,7 @@ internal class ExtensionEntrypoint : Extension
             Icon = "Resources/icon.png",
             PreviewImage = "Resources/Screenshot-light.png",
             InstallationTargetVersion = "[17.14,19.0)",
+            DotnetTargetVersions = [DotnetTarget.Net8, DotnetTarget.Custom("net10.0")],
         },
     };
 
