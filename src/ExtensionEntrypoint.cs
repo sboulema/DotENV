@@ -16,7 +16,7 @@ internal class ExtensionEntrypoint : Extension
                 id: "01e49a68-16fa-4117-93da-ab2c38191fd2",
                 version: ExtensionAssemblyVersion,
                 publisherName: "Samir Boulema",
-                displayName: "DotENV Highlighter",
+                displayName: "DotENV",
                 description: "Provide syntax highlighting for .env files")
         {
             MoreInfo = "https://github.com/sboulema/DotENV",
